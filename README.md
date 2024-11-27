@@ -50,6 +50,11 @@ Since non-paid version of asana wont let you do more than 50 requests per minute
 
 All projects, tasks, stories are stored in json files, that way application can check missing files and continue if the process was interrupted.
 
+## Changes tracking
+
+- Useful for tracking incognito changes on task story records.
+  - At my former company, there was that one guy that would "perfecting" his story comments. This comment edit/change does not mark the entire task as changed, only a small "edit" mark in the story/comment header. So some stupid remarks would over time convert to magic and futuristic predictions :-). (I ran backup/compare every week for several years, it is interesting to see how some people struggle to be always right.)
+
 
 ## Todo
 
