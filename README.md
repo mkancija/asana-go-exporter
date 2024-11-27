@@ -44,6 +44,12 @@ Assetes are downloaded in `assets` directory in each task folder.
            - 456456456546-story.json
      - my-project-name1
        - ...
+## Resumable
+
+Since non-paid version of asana wont let you do more than 50 requests per minute, downloading all tasks can take a long time.
+
+All projects, tasks, stories are stored in json files, that way application can check missing files and continue if the process was interrupted.
+
 
 ## Todo
 
